@@ -1,0 +1,26 @@
+
+
+#menu-lateral{
+    background-color: rgb(237, 237, 237);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+   
+   height: 100vh;
+}
+.container{
+    width: 100%;
+}
+.linha{
+    height: 2px;
+    background-color: black;
+}
+.img-perfil{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 100px;
+}
+
+button{
+    margin: 5px;
+    width: 100%;
+}
