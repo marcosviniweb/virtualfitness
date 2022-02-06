@@ -24,3 +24,8 @@ button{
     margin: 5px;
     width: 100%;
 }
+
+.card{
+    background-color: #009eff;
+    color: white;
+}
