@@ -1,0 +1,21 @@
+#box-login{
+        
+      
+    margin-top: 5%;
+    width: 800px;
+
+}
+.espaco{
+padding: 40px;
+}
+.linha{
+height: 1px;
+width: 100%;
+}
+
+.cadastro{
+color: black;
+background-color: #e1eaeb;
+text-align: center;
+padding: 20px;
+}

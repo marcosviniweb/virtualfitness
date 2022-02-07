@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class ServiceService {
 
   apiUrl = 'http://localhost:3000/usuario';
-
+   
   httpOptions = {
     headers: new HttpHeaders({
       'Content-type': 'application/json',
@@ -22,5 +22,8 @@ export class ServiceService {
 
      getUser(): Observable<any>{
        return this.httpClient.get(this.apiUrl,  {responseType: 'json'})
+     }
+     cadastroUser(dados: any): Observable<any>{
+      return this.httpClient.post(this.apiUrl + '/cadastro', dados)
      }
 }

@@ -4,11 +4,12 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { TreinosComponent } from './treinos/treinos.component';
 import { AlimentacaoComponent } from './alimentacao/alimentacao.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 const routes: Routes = [
 
   //{ path: '',component: LoginComponent},
-  { path: '', component: HomeComponent }
+  { path: '', component: CadastroComponent }
 
 
 ];
