@@ -8,7 +8,7 @@ import { AlimentacaoComponent } from './alimentacao/alimentacao.component';
 const routes: Routes = [
 
   //{ path: '',component: LoginComponent},
-  { path: '', component: AlimentacaoComponent }
+  { path: '', component: HomeComponent }
 
 
 ];

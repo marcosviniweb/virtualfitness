@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { TreinosComponent } from './treinos/treinos.component';
 import { AlimentacaoComponent } from './alimentacao/alimentacao.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AlimentacaoComponent } from './alimentacao/alimentacao.component';
     AlimentacaoComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule
   ],
