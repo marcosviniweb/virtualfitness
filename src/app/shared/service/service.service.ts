@@ -26,4 +26,12 @@ export class ServiceService {
      cadastroUser(dados: any): Observable<any>{
       return this.httpClient.post(this.apiUrl + '/cadastro', dados)
      }
+
+     loginUser(dados: any): Observable<any>{
+      return this.httpClient.post(this.apiUrl + '/login', dados)
+     }
+
+     treinoUser(dados: any): Observable<any>{
+      return this.httpClient.post(this.apiUrl + '/treino', dados)
+     }
 }

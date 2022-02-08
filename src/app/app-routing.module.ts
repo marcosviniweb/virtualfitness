@@ -9,7 +9,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 const routes: Routes = [
 
   //{ path: '',component: LoginComponent},
-  { path: '', component: CadastroComponent }
+  { path: '', component: TreinosComponent }
 
 
 ];

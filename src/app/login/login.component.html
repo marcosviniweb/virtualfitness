@@ -11,14 +11,14 @@
           <div class = "linha"></div>
 
           <label style = "text-align: left;"  class="form-label">Usuário: </label>
-          <input type="text" class="form-control">
+          <input type="text" class="form-control" name = "usuario" [(ngModel)] = "userLogin.login">
             <br>
           <label style = "text-align: left;"  class="form-label">Senha: </label>
-          <input type="password" class="form-control">
+          <input type="password" class="form-control"  name = "senha" [(ngModel)] = "userLogin.senha">
            <Br>
-            <a href = "/home">
-          <button type="button" style = "width: 100%;" class="btn btn-primary">Logar</button>
-        </a>
+        
+          <button type="button" style = "width: 100%;" class="btn btn-primary"  (click) = "logar()" >Logar</button>
+     
         </div>
 
         <div class = "cadastro">

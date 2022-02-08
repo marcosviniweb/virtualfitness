@@ -10,6 +10,7 @@ import { AlimentacaoComponent } from './alimentacao/alimentacao.component';
 import {HttpClientModule} from '@angular/common/http';
 import { CadastroComponent } from './cadastro/cadastro.component'
 import { FormsModule } from '@angular/forms';
+import { AddtreinosComponent } from './addtreinos/addtreinos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     TreinosComponent,
     AlimentacaoComponent,
-    CadastroComponent
+    CadastroComponent,
+    AddtreinosComponent
   ],
   imports: [
     HttpClientModule,

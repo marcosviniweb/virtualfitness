@@ -9,17 +9,28 @@ import  { ServiceService} from '../shared/service/service.service'
 export class LoginComponent implements OnInit {
 
   constructor(private service: ServiceService) { }
+    
+  userLogin = {
+        login: '',
+        senha: ''
+  }
 
-  ngOnInit(): void {
+  ngOnInit() {
+ 
   }
 
 
-  listarUser(){
-    this.service.getUser().subscribe(res =>{
+  logar(){
+        console.log(this.userLogin)
 
-    } ,err =>{
-          console.log(err) 
-      })
+        this.service.loginUser(this.userLogin).subscribe((res) =>{
+          
+                        console.log(res)    
+                        if(res == null){
+                          alert('Login ou senha inválido')
+                        }  
+        })
+      
   }
 
 }
